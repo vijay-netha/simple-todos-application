@@ -24,7 +24,7 @@ class SimpleTodos extends Component {
     newTodoTitle: '',
     newTodoCount: 1,
   }
-  handleAddTodo = () => {
+  onClickAddTodo = () => {
     const {newTodoTitle, newTodoCount} = this.state
     const newTodos = Array.from({length: newTodoCount}, (_, i) => ({
       id: Date.now() + i,
@@ -76,7 +76,7 @@ class SimpleTodos extends Component {
               className="input"
             />
             <button
-              onClick={this.handleAddTodo}
+              onClick={this.onClickAddTodo}
               type="button"
               className="button"
             >
