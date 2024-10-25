@@ -1,0 +1,47 @@
+.todo-item {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 20px;
+    padding-left: 15px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 10px;
+  }
+.completed {
+    color: green;
+}
+.inputBox {
+    height: 50px;
+    padding-left: 40px;
+}
+
+.delete-btn {
+background-color: white;
+color: #ff0b37;
+width: 65px;
+height: 26px;
+border-radius: 6px;
+}
+.title {
+color: #000000;
+font-size: 16px;
+font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+.title {
+    font-size: 24px;
+}
+.delete-btn {
+    font-size: 15px;
+}
+}
+.button {
+background-color: rgb(138, 186, 138);
+width: 65px;
+height: 26px;
+border-radius: 6px;
+color: #ffffff;
+font-size: 15px;
+}
